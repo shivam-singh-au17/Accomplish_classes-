@@ -1,0 +1,17 @@
+Q. <<<<<  What are the default data types in python? 
+A. >>>>>  There are many data types in Python, some of which are as follows:-
+          1. Integer
+          2. Boolean 
+          3. Float
+          4. String
+          5. Complex 
+          But string is the default data types in python.
+
+
+
+Q. <<<<<  What is typecasting in python?
+A. >>>>>  Type casting is a method used to change the variables/ values declared in a certain data
+          type into a different data type to match the operation required to be performed by the code 
+          snippet. In python, this feature can be accomplished by using constructor functions like int
+          (), string(), float(), etc.
+
