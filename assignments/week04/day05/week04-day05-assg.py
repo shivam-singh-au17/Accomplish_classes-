@@ -30,12 +30,14 @@
 
 #     The center of the rangoli has the first alphabet letter a, and the boundary has
 #     the alphabet letter (in alphabetical order).
+print() #for space
 
 
 
 
 
 n = int(input("Enter Rngoli Size Number: "))
+print() #for space
 # albt = list(map(chr,range(97,123)))
 
 albt = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 
@@ -62,6 +64,7 @@ for i in range(n-1,-1,-1):
 
 
 
+print() #for space
 #     [Hint: Use the chr() and ord() function in python and then try to build this
 #     pattern]
 
@@ -82,7 +85,8 @@ for i in range(n-1,-1,-1):
 
 
 
-n = int(input("Enter Rngoli size: "))
+n = int(input("Enter Rngoli size Number: "))
+print() #for space
 
 
 for i in range(n):
@@ -97,6 +101,7 @@ for i in range(n-1):
 
 
 
+print() #for space
 #     You are given an integer, n. Your task is to print an alphabet rangoli of size .
 #     (Rangoli is a form of Indian folk art based on creation of patterns.)
 #     Different sizes of alphabet rangoli are shown below:
@@ -148,6 +153,7 @@ for i in range(n-1):
 
 
 n = int(input("Enter Rngoli Size Number: "))
+print() #for space
 # albt = list(map(chr,range(97,123)))
 
 albt = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 
@@ -191,6 +197,7 @@ for i in range(n):
 
 
 
+print() #for space
 #     [Hint: Use the chr() and ord() function in python and then try to build this
 #     pattern]
 #     Constraints: Use a single while loop to solve this question
@@ -213,15 +220,20 @@ for i in range(n):
 
 
 
-n = int(input("Enter Rngoli size: "))
+n = int(input("Enter Rngoli size Number: "))
+print() #for space
 
-for i in range(n):
+i = 0
+while i < n:
     s = "-".join(chr(ord('a')+n-j-1) for j in range(i+1))
     print((s+s[::-1][1:]).center(n*4-3, '-'))
-
-for i in range(n-1):
+    i = i + 1
+i = 0
+while i < (n -1):
     s = "-".join(chr(ord('a')+n-j-1) for j in range(n-i-1))
     print((s+s[::-1][1:]).center(n*4-3, '-'))
+    i = i + 1
 
 
+print()  #for space
 
