@@ -7,6 +7,8 @@
 # material: material is wood, steel, plywood and so on.
 
 
+
+
 class Bed:
     def __init__(self, length, breadth, year_made,has_headboard, has_posts, material):
         self.length = float(length)

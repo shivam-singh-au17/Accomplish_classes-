@@ -14,6 +14,9 @@
 # be used for cooking” . If these connections donot exist, returns “Kitchen
 # unsuitable for cooking”
 
+
+
+
 class Kitchen:
 
     def __init__(self,length, breadth, slab_material, has_sink,has_slab, furnishing_material,lpg_pipeline):

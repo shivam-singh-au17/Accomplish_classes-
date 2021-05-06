@@ -13,6 +13,8 @@
 # and returns “Suitable for bathing”, if not available it returns “Unsuitable for bathing”
 
 
+
+
 class Bathroom:
     def __init__(self,length, breadth, has_sink, has_bathtub, has_tap, has_shower):
 

@@ -11,6 +11,8 @@
 # store_item(): Takes a string as input and adds it to the items list
 # fetch_item(): Returns the frontmost object in the items list
 
+
+
 class Closet:
     def __init__(self,length, breadth, height, max_capacity, items):
         self.length = float(length)

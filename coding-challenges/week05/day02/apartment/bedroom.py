@@ -32,6 +32,8 @@
 # • remove_closet(): Checks if the closet attribute is None. If not, then makes it None and returns “closet removed from the room”. If closet attribute is already None, then it returns “No closet found in the room”.
 
 
+
+
 from bed import Bed
 from closet import Closet
 

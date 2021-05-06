@@ -17,6 +17,9 @@
 
 # from bedroom import Bedroom
 
+
+
+
 class Flat:
     def __init__(self, bed_rooms, bath_rooms, kitchens, owner_name, current_renter):
 
