@@ -1,6 +1,7 @@
 #                                         Beds, Closets and Bedrooms - 1
 #                       Make 3 classes Beds, Closets and Bedrooms with the following specifications:
 
+
 #    1. The Bed Object has the following attributes:
 
 #    length:        length of the bed in feet
@@ -95,6 +96,7 @@ print(c_lt.items)
 
 c_lt.store_item()
 c_lt.fetch_item()
+
 
 
 
@@ -202,6 +204,7 @@ b_rm.add_bed()
 b_rm.add_closet()
 b_rm.remove_bed()
 b_rm.remove_closet()
+
 
 
 
