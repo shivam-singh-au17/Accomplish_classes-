@@ -129,7 +129,7 @@ def upperbound(A, target):
 
 if __name__ == "__main__":
     A = [1,2,2,2,3,3,5,5,5,6,6,7,7]
-    x = 7
+    x = 4
     print(upperbound(A, x))
    
 
