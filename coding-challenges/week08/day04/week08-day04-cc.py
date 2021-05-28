@@ -114,3 +114,6 @@ def sumOfRows(matrix):
 result = sumOfRows(matrix)
 print("sum of rows of a matrix :=>",result)
 
+
+
+
