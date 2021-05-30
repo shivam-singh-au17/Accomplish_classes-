@@ -17,7 +17,22 @@ Write time and space complexity of your code.
 
 
 
+def upperbound(A, target):
+    n = len(A)
+    prev = -1
+    for i in range(n - 1, -1, -1):
+        if target == A[i]:
+            return i
+        elif target > A[i]:
+            return prev
+        prev = i
 
+
+if __name__ == "__main__":
+
+    A = [1,1,1,2,2,2,3,3,4]
+    x = 2
+    print("upper bound :", upperbound(A, x))
 
 
 
@@ -34,6 +49,29 @@ Write time and space complexity of your code.
 
 
 
+def upperbound(A, target):
+    n = len(A)
+    left = 0
+    right = n - 1
+    ans = -1
+    while left <= right:
+        mid = (left + right) >> 1 # or (left + right) // 2
+        if A[mid] == target:
+            ans = mid
+            left = mid + 1
+        elif A[mid] > target:
+            right = mid - 1
+        elif A[mid] < target:
+            left = mid + 1
+
+    return ans
+
+
+if __name__ == "__main__":
+
+    A = [1,1,1,2,2,2,3,3,4]
+    x = 2
+    print("upper bound :", upperbound(A, x))
 
 
 
@@ -51,6 +89,8 @@ Write time and space complexity of your code.
 (3 marks)
 
 """
+
+
 
 
 
@@ -126,7 +166,26 @@ Write time and space complexity of your code.
 
 
 
+def findExists(arr):
+    temp = False
+    for i in range(0, len(arr)):
+        for j in range(0, len(arr)):
+            if i != j and 0 <= i and j < len(arr):
+                if arr[i] / 2 == arr[j]:
+                    temp = True
+    if temp == True:
+        return "true"
+    else:
+        return "false"
 
+
+
+if __name__=="__main__":
+
+    arr = [3,1,7,14]
+
+    result = findExists(arr)
+    print(result)
 
 
 
@@ -151,9 +210,26 @@ Write time and space complexity of your code.
 
 
 
+def findAppear(nums1, nums2):
+    repeetNum = []
+    for i in nums1:
+        if i in nums2:
+            repeetNum.append(i)
+            nums2.remove(i)
+            
+    return repeetNum
 
 
+if __name__=="__main__":
 
+    nums1 = [1,2]
+    nums2 = [1,1]
+    
+    # nums1 = [4,9,5]
+    # nums2 = [9,4,9,8,4]
+
+    result = findAppear(nums1, nums2)
+    print(result)
 
 
 
