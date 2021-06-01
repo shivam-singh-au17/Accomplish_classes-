@@ -25,6 +25,7 @@ def adj(string1,n):
                 else:
                     string1[i] = "3"
     print("".join(string1))
+    
 input1 = input()
 n1 = len(input1)
 string1 = list(input1)
