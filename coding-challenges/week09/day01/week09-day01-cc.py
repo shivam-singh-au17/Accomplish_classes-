@@ -151,13 +151,26 @@ if you solve it, you can get an extra 3 marks.
 Practise questions carry no marks, they are just for revision of concepts.
 Remark: maximum marks you can get is 15, bonus question helps only of you are not able to
 solve another question.
+
+
+
 Practise questions (zero marks):
 Q - 1) Rat in a Maze
 https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/
+
+
+
 Q-2) Given a 3 x n board, find the number of ways to fill it with 2 x 1
 dominoes.
 https://www.geeksforgeeks.org/tiling-with-dominoes/
+
+
+
+
 Q-3) Find factorial of a number.
+
+
+
 Q-4) Find nth number in fibonacci series.
 
 """
