@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     A = [1,1,1,2,2,2,3,3,4]
     x = 2
-    print("upper bound :", upperbound(A, x))
+    # print("upper bound :", upperbound(A, x))
 
 
 
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
     A = [1,1,1,2,2,2,3,3,4]
     x = 2
-    print("upper bound :", upperbound(A, x))
+    # print("upper bound :", upperbound(A, x))
 
 
 
@@ -152,12 +152,12 @@ if __name__=="__main__":
     arr = [15, 3, 4, 5, 8, 11, 2, 10, 4, 9, 6, 19]
 
     result = findLargestNum(arr)
-    print("largest number in a list:", result)
+    # print("largest number in a list:", result)
 
     index = findLargIndex(arr)
 
     result = secondLargNum(arr, index)
-    print("second largest number in a list:", result)
+    # print("second largest number in a list:", result)
 
 
 
@@ -204,6 +204,7 @@ def findExists(arr):
         for j in range(0, len(arr)):
             if i != j and 0 <= i and j < len(arr):
                 if arr[i] / 2 == arr[j]:
+                    print(arr[i], arr[j])
                     temp = True
     if temp == True:
         return "true"
@@ -214,7 +215,7 @@ def findExists(arr):
 
 if __name__=="__main__":
 
-    arr = [3,1,7,14]
+    arr = [3,1,7,11]
 
     result = findExists(arr)
     print(result)
@@ -272,7 +273,7 @@ if __name__=="__main__":
     # nums2 = [9,4,9,8,4]
 
     result = findAppear(nums1, nums2)
-    print(result)
+    # print(result)
 
 
 
