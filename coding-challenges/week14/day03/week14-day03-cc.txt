@@ -1,0 +1,119 @@
+
+
+"""
+Question 1. Write short note on Process Life cycle (3 marks)
+
+"""
+
+
+
+
+"""
+Process life cycle in OS is one of the five states in which a process can be 
+starting from the time it has been submitted for execution, till the time when it
+ has been executed by the system. A process can be in any of the following states 
+
+1. New state
+2. Ready state
+3. Running state
+4. Waiting state
+5. Terminated
+
+Process Cycle 1     ->   	New State
+Process Cycle 2     ->   	Read State
+Process Cycle 3     ->   	Running State
+Process Cycle 4     ->   	Waiting State
+Process Cycle 4     ->   	Terminated State
+
+"""
+
+
+
+
+"""
+Question 2. What role does an operating system perform. (3 marks)
+
+"""
+
+
+
+
+"""
+An operating system is the most important software that runs on a computer. It manages the 
+computer's memory and processes, as well as all of its software and hardware. It also allows
+ you to communicate with the computer without knowing how to speak the computer's language.
+  Without an operating system, a computer is useless.
+
+"""
+
+
+
+
+
+
+"""
+Question 3. What is a process ? (3 marks)
+
+"""
+
+
+
+
+"""
+In computing, a process is the instance of a computer program that is being executed by one 
+or many threads. It contains the program code and its activity. Depending on the operating 
+system (OS), a process may be made up of multiple threads of execution that execute 
+instructions concurrently.
+
+"""
+
+
+
+
+"""
+Question 4. What is the job of a long term scheduler (3 marks)
+
+"""
+
+
+"""
+It is also called a job scheduler. A long-term scheduler determines which programs are 
+admitted to the system for processing. It selects processes from the queue and loads them 
+into memory for execution. Process loads into the memory for CPU scheduling.
+
+
+The primary objective of the job scheduler is to provide a balanced mix of jobs, such as I/O
+ bound and processor bound. It also controls the degree of multiprogramming. If the degree of 
+ multiprogramming is stable, then the average rate of process creation must be equal to the 
+ average departure rate of processes leaving the system.
+
+
+
+1	It is a job scheduler
+2	Speed is lesser than short term scheduler
+3	It controls the degree of multiprogramming
+4	It is almost absent or minimal in time sharing system
+5	It selects processes from pool and loads them into memory for execution
+
+"""
+
+
+
+
+
+"""
+Question 5. What is Response time. (3 marks)
+
+"""
+
+
+
+
+"""
+Response time is the time spent between the ready state and getting the CPU for the first
+ time. But the waiting time is the total time taken by the process in the ready state.
+ 
+
+"""
+
+
