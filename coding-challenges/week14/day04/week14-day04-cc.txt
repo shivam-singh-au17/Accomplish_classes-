@@ -1,0 +1,59 @@
+
+(All questions are Easy and discussed in class)
+Question 1. Write short note on CPU scheduling algorithms (5 marks)
+
+
+
+CPU Scheduling is a process of determining which process will own CPU for execution while another process is on hold. The
+ main task of CPU scheduling is to make sure that whenever the CPU remains idle, the OS at least select one of the 
+ processes available in the ready queue for execution. The selection process will be carried out by the CPU scheduler. It 
+ selects one of the processes in memory that are ready for execution.
+
+There are mainly six types of process scheduling algorithms
+
+First Come First Serve (FCFS)
+Shortest-Job-First (SJF) Scheduling
+Shortest Remaining Time
+Priority Scheduling
+Round Robin Scheduling
+Multilevel Queue Scheduling
+
+
+
+
+
+
+
+
+
+Question 2. What is preemptive vs non preemptive scheduling algos (5 marks)
+
+
+Non-preemptive Scheduling is used when a process terminates, or a process switches from running to waiting state. In this 
+scheduling, once the resources (CPU cycles) is allocated to a process, the process holds the CPU till it gets terminated 
+or it reaches a waiting state. In case of non-preemptive scheduling does not interrupt a process running CPU in middle of 
+the execution. Instead, it waits till the process complete its CPU burst time and then it can allocate the CPU to another 
+process. 
+
+In preemptive scheduling the CPU is allocated to the processes for the limited time whereas in Non-preemptive scheduling,
+ the CPU is allocated to the process till it terminates or switches to waiting state
+
+
+
+
+
+Question 3. Write the best and/or practical scheduling algo, with reason ? (5 marks)
+
+
+
+
+A typical process involves both I/O time and CPU time. In a uni programming system like MS-DOS, time spent waiting for I/
+O is wasted and CPU is free during this time. In multi programming systems, one process can use CPU while another is 
+waiting for I/O. This is possible only with process scheduling.
+
+Max CPU utilization [Keep CPU as busy as possible]
+Fair allocation of CPU.
+Max throughput [Number of processes that complete their execution per time unit]
+Min turnaround time [Time taken by a process to finish execution]
+Min waiting time [Time a process waits in ready queue]
+Min response time [Time when a process produces first response]
