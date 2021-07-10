@@ -1,0 +1,41 @@
+
+(All questions are Easy and discussed in class)
+Question 1. Write 4 characteristics of deadlock and explain each of them
+
+
+
+There are four conditions that must be present simultaneously for a deadlock to occur:
+
+1. Mutual Exclusion
+
+The mutual exclusion condition must hold for non-shareable resources that is only one process
+ can use a resource at a time. If another process want to access that resource, then it must
+  wait until the resource has been released.
+
+ 
+
+2. No Preemption
+
+There be no preemption of resources that have already been allocated that means no process is
+ allowed to preempt another process forcibly in order to gain a release of a resource from it.
+  So, we should check before resource allocation if it has already allocated to another process.
+
+ 
+
+3. Hold and Wait
+
+When a process is already holds a resource and while for additional resource that are 
+currently being held by other processes.This situation is known as hold and wait.
+
+ 
+
+4. Circular Wait
+
+Processes waiting for resources from the others form a circular chain, that means all waiting 
+processes form a circular chain or circular list where each process in the list is waiting for 
+a resource held by next process in the list.
+
+
+
+
+
