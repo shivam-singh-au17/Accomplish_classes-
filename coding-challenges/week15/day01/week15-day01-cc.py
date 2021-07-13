@@ -96,6 +96,8 @@ Explanation: There are 4 nodes in the graph.
 
 
 
+
+# Definition for a Node.
 class Node:
     def __init__(self, val = 0, neighbors = None):
         self.val = val
@@ -103,32 +105,27 @@ class Node:
 
 
 class Solution:
-    def cloneGraph(self, node: 'Node') -> 'Node':
-        if not node:
-            return node
-        
-        mapper = {}
-        mapper[node] = Node(node.val)
-        
-        vi = set()
-        q = deque()
-        q.append(node)
-        
-        while q:
-            curr = q.popleft()
-            vi.add(curr)
-            
-            for nbr in curr.neighbors:
-                if nbr not in vi:
-                    if mapper.get(nbr) == None:
-                        mapper[nbr] = Node(nbr.val)
-                    
-                    mapper[curr].neighbors.append(mapper[nbr])
-                    mapper[nbr].neighbors.append(mapper[curr])
-                    
-                    q.append(nbr)
-                
-        return mapper[node]
+       def cloneGraph(self, node: 'Node') -> 'Node':
+            if node == None:
+                return None
+
+            vi = set()
+            hm = {}
+
+            def dfs(node, vi, hm):
+                vi.add(node)
+                copyNode = Node(node.val, [])
+                hm[node] = copyNode
+
+                for dest in node.neighbors:
+                    if dest not in vi:
+                        dfs(dest, vi, hm)
+
+                    copyNode.neighbors.append(hm[dest])
+
+            dfs(node, vi, hm)
+
+            return hm[node]
         
 
 
