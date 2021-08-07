@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+#container {
+  background-color: rgb(1, 0, 37);
+  padding: 80px 0px;
+}
+
+#main {
+  max-width: 70%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+
+#form {
+  padding: 20px 40px;
+  max-width: 70%;
+  margin: auto;
+  background-color: rgb(224, 236, 238);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#form h1 {
+  text-align: center;
+}
+
+.firstInp {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 35px;
+  padding-left: 4px;
+}
+
+.bussines {
+  margin-bottom: 40px;
+}
+
+.firstInpV01 {
+  height: 60px;
+  background-color: rgb(204, 223, 226);
+  border: 0.5px double rgb(206, 206, 206);
+}
+
+.firstInpV02 {
+  height: 50px;
+  background-color: rgb(204, 223, 226);
+  border: 0.5px double rgb(206, 206, 206);
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+}
+
+
+.modifide {
+  background-color: rgb(204, 223, 226);
+  border: 0.5px double rgb(206, 206, 206);
+  color: rgb(58, 58, 58);
+}
+
+.firstInpV03 {
+  height: 60px;
+}
+
+.myNumber {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.fontsizeInput {
+  font-size: 21px;
+  padding: 2px;
+}
+
+.fontsizeInput input{
+  cursor: pointer;
+}
+
+
+p {
+  background-color: rgb(17, 207, 90);
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 4px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.mybtn button {
+  cursor: pointer;
+  font-size: 23px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: rgb(17, 207, 90);
+}
+
+label {
+  line-height: 40px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
