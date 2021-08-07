@@ -1,0 +1,105 @@
+.container {
+  max-width: 77%;
+  margin: auto;
+  padding: 11.9%;
+  background-color: rgb(147, 180, 0);
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.main {
+  max-width: 86%;
+  margin: auto;
+  background-color: rgb(255, 0, 179);
+  border-radius: 10px;
+  padding: 7%;
+  border: 5px groove;
+}
+
+.btn {
+  border-radius: 10px;
+  border: dotted;
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding: 5%;
+}
+
+.btn button {
+  padding: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn_Default {
+  border: 1px solid rgb(182, 182, 182);
+  background-color: white;
+}
+
+.btn_Primary {
+  background-color: rgb(38, 0, 255);
+  color: white;
+  border-style: none;
+}
+
+.btn_Success {
+  background-color: rgb(30, 255, 0);
+  color: white;
+  border-style: none;
+}
+
+.btn_Info {
+  background-color: rgb(0, 238, 255);
+  color: white;
+  border-style: none;
+}
+
+.btn_Warning {
+  background-color: rgb(255, 251, 0);
+  color: white;
+  border-style: none;
+}
+
+.btn_Danger {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-style: none;
+}
+
+.btn_Default:hover {
+  color: black;
+  background-color: rgb(255, 0, 179);
+}
+
+.btn_Primary:hover {
+  color: rgb(38, 0, 255);
+  background-color: rgb(255, 0, 179);
+}
+
+.btn_Success:hover {
+  color: rgb(30, 255, 0);
+  background-color: rgb(255, 0, 179);
+}
+
+.btn_Info:hover {
+  color: rgb(0, 238, 255);
+  background-color: rgb(255, 0, 179);
+}
+
+.btn_Warning:hover {
+  color: rgb(255, 251, 0);
+  background-color: rgb(255, 0, 179);
+}
+
+.btn_Danger:hover {
+  color: red;
+  background-color: rgb(255, 0, 179);
+}
