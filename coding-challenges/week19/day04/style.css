@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(3, 0, 43);
+}
+
+#cont {
+  max-width: 99%;
+  margin-top: 90px;
+}
+
+.main {
+  max-width: 100%;
+  padding: 30px;
+  margin: auto;
+  min-height: 65vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 0, 119);
+}
+
+.box {
+  margin: 10px;
+  background-color: rgb(163, 163, 163);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box2box2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box2box1 div,
+.box2box2 div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 10px;
+  height: 40px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box3box1 {
+  display: flex;
+}
+
+.box3box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box3box3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box3box1 div,
+.box3box2 div,
+.box3box3 div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 10px;
+  height: 40px;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box4box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4box div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 10px;
+  height: 40px;
+}
+
+.box5box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box5box div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 10px;
+  height: 40px;
+}
+
+.box5box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box5box2 div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 20px;
+  height: 40px;
+}
+
+.box6box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box6box div {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  margin: 14px;
+  height: 40px;
+}
