@@ -1,0 +1,113 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav img {
+  padding-top: 15px;
+  width: 15%;
+}
+
+.topnav input[type="text"] {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.uppercont {
+  max-width: 80%;
+  padding: 20px;
+  display: flex;
+}
+
+.uppercont span {
+  font-weight: 600;
+}
+
+.profilePic {
+  margin-right: 40px;
+}
+
+.profilePic img {
+  width: 70%;
+  position: relative;
+  top: 28px;
+  border-radius: 50%;
+}
+
+.upperbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstBox {
+  display: flex;
+}
+
+.firstBox1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.firstBox div {
+  margin: 10px;
+}
+
+.firstBox p {
+  font-size: 25px;
+}
+
+.mybtn {
+  height: 35px;
+  padding: 5px;
+  width: 91px;
+}
+
+.allImg {
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: 1;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.allImgBox {
+  flex-wrap: 1;
+  justify-content: space-between;
+  display: flex;
+}
+
+.allImgBox img {
+  height: 380px;
+  width: 94%;
+  filter: grayscale(0);
+  margin-top: 20px;
+}
+
+.allImgBox img:hover {
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+}
