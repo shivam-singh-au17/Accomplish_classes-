@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(0, 0, 56);
+}
+
+.mycont{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: #293bdf;
+}
+
+.search{
+    background-color: #3342c4;
+    border-radius: 20px;
+    height: 43px;
+}
+
+::placeholder{
+    color: rgb(156, 156, 156);
+    font-weight: 600;
+}
+
+.content{
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+.myHoleCard{
+    display: flex;
+    justify-content: center;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile p{
+    margin: 0px;
+}
