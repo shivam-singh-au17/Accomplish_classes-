@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background: #21f391;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.myCarousel{
+    img{
+        max-height: 85vh;
+    }
+}
+
+.myGalleryImg{
+    div{
+        height: fit-content;
+    }
+}
+
+.myinfodiv{
+  overflow: hidden;
+}
+
+.myinfodiv:hover{
+  cursor: pointer;
+  box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.555);
+}
+
+.myinfodiv div{
+  transition: 1s;
+}
+
+.myinfodiv div:hover{
+  transform: scale(1.5);
+}

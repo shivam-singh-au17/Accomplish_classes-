@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar myNavbar navbar-expand-lg navbar-dark bg-primary p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="https://cdn1.iconfinder.com/data/icons/christmas-2-26/48/90-512.png" alt="" width="30"
+                    height="24" class="d-inline-block align-text-top"> PhoटोGaलरी</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                    </li>
+                </ul>
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-xxl px-4">
+        <div id="carouselExampleControls" class="carousel myCarousel slide my-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://c6w8h3d4.rocketcdn.me/wp-content/uploads/sites/3/2021/05/xl-2020-software-testing-1.jpg"
+                        class="d-block w-100" alt="carouselImg">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/b1/32/cb/b132cb6e562fef08f3e9457f1b750f38.jpg" class="d-block w-100" alt="carouselImg">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/3f/32/0c/3f320cf5acc1754059922df2be39a08e.jpg"
+                        class="d-block w-100" alt="carouselImg">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/93/18/03/9318038c3259b92c4e2cd07ace6aa854.jpg"
+                        class="d-block w-100" alt="carouselImg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 pb-4 g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628435600697-6a954dea5055?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQxfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1608377205775-65b5deff2160?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628024963793-7823e403cf82?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628234772258-c856943bb7ee?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1580983703451-bf6bb44a9917?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911772801-99aa42a1d2c7?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1622849026560-7e723676e3d1?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627065435586-f73a837851b4?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911773925-2586d87f2b5c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628405144698-0038d89618da?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1599272771314-f3ec16bda3f2?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1581090690193-36146cb0d813?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 py-4 g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627357293359-2a901fe13c11?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627112256949-449061423eb0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1559137781-875af01c14bc?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1626194062394-022cc80f6d2d?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1622849026560-7e723676e3d1?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627065435586-f73a837851b4?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911773925-2586d87f2b5c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628405144698-0038d89618da?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 pb-4 g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1580983703451-bf6bb44a9917?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911772801-99aa42a1d2c7?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1581090690193-36146cb0d813?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627357293359-2a901fe13c11?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627112256949-449061423eb0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="row row-cols-1 row-cols-xl-2 pb-4 g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628435600697-6a954dea5055?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQxfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628234772258-c856943bb7ee?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 pb-4  g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1580983703451-bf6bb44a9917?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911772801-99aa42a1d2c7?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1622849026560-7e723676e3d1?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627065435586-f73a837851b4?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1628911773925-2586d87f2b5c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 pb-4 g-4">
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627357293359-2a901fe13c11?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627112256949-449061423eb0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1559137781-875af01c14bc?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1626194062394-022cc80f6d2d?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627357293359-2a901fe13c11?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc1fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1627112256949-449061423eb0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY5fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1559137781-875af01c14bc?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+
+            <div class="col myinfodiv">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1626194062394-022cc80f6d2d?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fEo5eXJQYUhYUlFZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-footer pt-3 h6 text-muted fst-italic border-info">Best Control Technology
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav  class="navbar-dark bg-primary pt-3  pb-2">
+        <p style="text-align: center; color: white;" class="h6">@Shivam Singh 2021</p>
+    </nav>
+</body>
+
+</html>
