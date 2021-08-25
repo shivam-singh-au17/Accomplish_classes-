@@ -1,0 +1,24 @@
+body{
+    background-color: tomato;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.border-3{
+    width: 32rem;
+    box-shadow: -2px 5px 18px black;
+}
+
+.emoji{
+    font-size: 40px;
+}
+
+.btnmy{
+    letter-spacing: 1px;
+    background-color: rgb(20, 0, 5);
+    color: white;
+    font-size: 20px;
+    padding: 7px 21px;
+}
