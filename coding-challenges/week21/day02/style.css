@@ -1,0 +1,27 @@
+.container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  border: 5px solid;
+  margin-top: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.row div {
+  width: 80px;
+  height: 80px;
+}
+
+.box1 div:nth-child(even),.box3 div:nth-child(even),.box5 div:nth-child(even),.box7 div:nth-child(even) {
+  background-color: black;
+}
+
+.box2 div:nth-child(odd),.box4 div:nth-child(odd),.box6 div:nth-child(odd),.box8 div:nth-child(odd) {
+  background-color: black;
+}
