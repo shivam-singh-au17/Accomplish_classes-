@@ -1,0 +1,88 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  background-color: #e7e7e7;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #919191;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.mainBox {
+  background-color: honeydew;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+}
+
+.box1:hover, button:hover {
+  background-color: green;
+  color: white;
+}
+
+.box3:hover {
+  background-color: #e2e2e2;
+}
+
+.box1 {
+  font-size: 20px;
+  padding: 29px;
+  background-color: #b9b9b9;
+}
+
+.box2 {
+  font-size: 20px;
+  padding: 25px;
+  background-color: #d8d8d8;
+  margin-bottom: 10px;
+}
+
+.box2 span {
+  font-size: 35px;
+}
+
+.box3 {
+  font-size: 19px;
+  padding: 10px;
+}
+
+.box3 span {
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px;
+}
+
+button {
+  border-radius: 30px;
+  font-size: 19px;
+  padding: 10px;
+  color: green;
+  width: 160px;
+  border: 1px solid green;
+}
+
+.green {
+  color: white;
+  background-color: green;
+}
+
+.btngreen button {
+  color: white;
+  background-color: green;
+}

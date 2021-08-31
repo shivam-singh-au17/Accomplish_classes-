@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  margin: 0px 10px;
+  padding: 20px;
+  display: flex;
+  font-weight: 600;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 70%;
+}
+
+.right span {
+  margin-right: 20px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.navbar2 {
+  margin: 0px 10px;
+  padding: 20px;
+  display: flex;
+  font-weight: 600;
+}
+
+.left2 {
+  width: 80%;
+}
+
+.right2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 20%;
+}
+
+.right2 span {
+  margin-right: 20px;
+}
+
+.sp2{
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 7px;
+}
+
+.sign1{
+    border: 1px solid black;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+
+.sign2{
+    padding-top: 10px;
+}
+
+.search{
+    border: 1px solid black;
+    border-radius: 0px;
+    height: 50px;
+}
+
+.searchbtn{
+    font-weight: 900;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+}
+
+.artical{
+    background: url(https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.articalCont{
+    max-width: 50%;
+    margin: auto;
+}
+
+.articalCont p {
+    font-size: 18px;
+}
+
+.disply{
+    padding-top: 60px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.btnpila{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(253, 249, 0);
+    border: 2px solid rgb(253, 249, 0);
+    border-radius: 30px;
+    color: black;
+}
+
+.btnlal{
+    width: 80%;
+    padding: 10px;
+    background-color: coral;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+
+.midcont{
+    max-width: 50%;
+    margin: auto;
+}
+
+.mtcont{
+    text-align: center;
+}
+
+.bigp{
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bigpkap{
+    font-size: 18px;
+}

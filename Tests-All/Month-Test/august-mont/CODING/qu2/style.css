@@ -1,0 +1,24 @@
+
+.mycont{
+    border: 8px solid black;
+}
+
+.hight{
+    margin-right: 20px;
+    height: 30px;
+    color: rgb(143, 143, 143);
+    max-width: 3px;
+}
+
+img{
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+}
+
+.second{
+    padding-top: 10px;
+    font-size: 20px;
+    max-width: 90%;
+    margin: auto;
+}
