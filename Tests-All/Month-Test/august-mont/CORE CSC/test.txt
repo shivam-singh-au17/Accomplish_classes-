@@ -1,0 +1,144 @@
+﻿Core CSE: 
+
+
+Q1. List out different OOPS principles and explain ? 
+Ans: Object-oriented programming combines a group of variables (properties) and functions (methods) into a unit called an "object." These objects are organized into classes where individual objects can be grouped together. 
+Here are the four basic theories:
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
+
+Encapsulation:
+The different objects inside of each program will try to communicate with each other automatically. If a programmer wants to stop objects from interacting with each other, they need to be encapsulated in individual classes. Through the process of encapsulation, classes cannot change or interact with the specific variables and functions of an object.
+
+
+Abstraction:
+Abstraction is like an extension of encapsulation because it hides certain properties and methods from the outside code to make the interface of the objects simpler. Programmers use abstraction for several beneficial reasons. Overall, abstraction helps isolate the impact of changes made to the code so that if something goes wrong, the change will only affect the variables shown and not the outside code.
+
+
+Inheritance:
+Using this concept, programmers can extend the functionality of the code's existing classes to eliminate repetitive code. For instance, elements of HTML code that include a text box, select field and checkbox have certain properties in common with specific methods.
+
+
+
+
+
+
+
+
+Polymorphism:
+This technique meaning "many forms or shapes" allows programmers to render multiple HTML elements depending on the type of object. This concept allows programmers to redefine the way something works by changing how it is done or by changing the parts in which it is done. Terms of polymorphism are called overriding and overloading.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2. List out Layers of TCP/IP Model and explain ?
+Ans: Here are the four basic Layers -
+
+
+Network Access Layer :
+This layer corresponds to the combination of Data Link Layer and Physical Layer of the OSI model. It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data.
+
+
+Internet Layer :
+This layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for logical transmission of data over the entire network. 
+
+
+Host-to-Host Layer :
+This layer is analogous to the transport layer of the OSI model. It is responsible for end-to-end communication and error-free delivery of data. It shields the upper-layer applications from the complexities of data.
+
+
+Application Layer :
+This layer performs the functions of the top three layers of the OSI model: Application, Presentation and Session Layer. It is responsible for node-to-node communication and controls user-interface specifications. Some of the protocols present in this layer are: HTTP, HTTPS, FTP, TFTP, Telnet, SSH, SMTP, SNMP, NTP, DNS, DHCP, NFS, X Window, LPD. 
+
+
+
+
+
+
+
+
+
+
+Q3. Construct a binary tree by using postorder and inorder sequences given below. 
+Inorder: N, M, P, O, Q 
+Postorder: N, P, Q, O, M 
+Ans:
+                                                   M
+                                            N                           O
+                                                                    P           Q
+Explanation: Here:-
+Postorder Traversal: N, P, Q, O, M
+Inorder Traversal: N, M, P, O, Q
+Root node of tree is the last visiting node in Postorder traversal. Thus, Root Node = ‘M’.
+The second last node in postorder traversal is O. Thus, node P becomes the left child of node O and node Q becomes the right child of node Q. 
+
+
+
+
+Q5. Explain LRU cache and its implementation by taking some examples and explaining all steps.
+Ans: We use two data structures to implement an LRU Cache.  
+Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). The most recently used pages will be near the front end and least recently pages will be near the rear end. 
+A Hash with page number as key and address of the corresponding queue node as value.
+
+
+When a page is referenced, the required page may be in the memory. If it is in the memory, we need to detach the node of the list and bring it to the front of the queue. 
+If the required page is not in memory, we bring that in memory. In simple words, we add a new node to the front of the queue and update the corresponding node address in the hash. If the queue is full, i.e. all the frames are full, we remove a node from the rear of the queue, and add the new node to the front of the queue.
+
+
+Q6. Explain virtual memory.
+Ans: Virtual memory is a feature of an operating system that enables a computer to be able to compensate for shortages of physical memory by transferring pages of data from random access memory to disk storage.
+This process is done temporarily and is designed to work as a combination of RAM and space on the hard disk.
+This means that when RAM runs low, virtual memory can move data from it to a space called a paging file. This process allows for RAM to be freed up so that a computer can complete the task.
+Occasionally a user might be shown a message that says the virtual memory is running low, this means that either more RAM needs to be added, or the size of the paging file needs to be increased.
+
+
+
+
+
+
+
+
+
+
+Q7. Explain Deadlock and its characteristics.
+Ans: A deadlock happens in the operating system when two or more processes need some resource to complete their execution that is held by the other process.
+A deadlock occurs if the four Coffman conditions hold true. But these conditions are not mutually exclusive. They are given as follows −
+
+
+Mutual Exclusion
+There should be a resource that can only be held by one process at a time. 
+Hold and Wait
+A process can hold multiple resources and still request more resources from other processes which are holding them. 
+No Preemption
+A resource cannot be preempted from a process by force. A process can only release a resource voluntarily.
+Circular Wait
+A process is waiting for the resource held by the second process, which is waiting for the resource held by the third process and so on, till the last process is waiting for a resource held by the first process. This forms a circular chain.
+
+
+Q8. Explain NAT and ARP protocol ?
+Ans: NAT
+
+
+To access the Internet, one public IP address is needed, but we can use a private IP address in our private network. The idea of NAT is to allow multiple devices to access the Internet through a single public address. To achieve this, the translation of a private IP address to a public IP address is required. Network Address Translation (NAT) is a process in which one or more local IP addresses are translated into one or more Global IP addresses and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on a router or firewall. 
+
+
+ARP
+
+
+Address Resolution Protocol (ARP) is a protocol or procedure that connects an ever-changing Internet Protocol (IP) address to a fixed physical machine address, also known as a media access control (MAC) address, in a local-area network (LAN). 
+
+
+This mapping procedure is important because the lengths of the IP and MAC addresses differ, and a translation is needed so that the systems can recognize one another. The most used IP today is IP version 4 (IPv4). An IP address is 32 bits long. However, MAC addresses are 48 bits long. ARP translates the 32-bit address to 48 and vice versa.
