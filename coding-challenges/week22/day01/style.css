@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 53);
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 99vh;
+}
+
+.main {
+  margin: auto;
+  background-color: rgb(255, 0, 140);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+    letter-spacing: 1px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+  border: 3px solid rgb(21, 255, 0);
+  cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(0, 4, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#result {
+  color: rgb(255, 251, 0);
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  width: 87%;
+  padding: 30px;
+  border: 3px solid rgb(21, 255, 0);
+  margin: 25px 0px;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+  color: aqua;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+input {
+  border: 2px solid rgb(21, 255, 0);
+  height: 40px;
+  margin: 10px 0px;
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+::placeholder {
+  font-size: 25px;
+  text-align: center;
+}
