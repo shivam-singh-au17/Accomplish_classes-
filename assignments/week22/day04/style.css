@@ -1,0 +1,33 @@
+body{
+            text-align: center;
+            padding: 30px;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            min-height: 75vh;
+            
+        }
+        #main{
+            max-width: 60%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+        }
+
+        #main div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #main div:hover{
+            background-color: bisque;
+        }
+
+        #main div:hover::before{
+            border: 2px solid black;
+        }
