@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 97vh;
+            background-color: #8bff09;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        input {
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            width: 70%;
+        }
+
+        #resBox {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 30px;
+            background-color: #f7331d;
+        }
+
+        button {
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="resBox">
+            <div class="main">
+                <input type="text" id="myString" placeholder="Type Your String">
+                <button id="myBtn">Submit</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./script.js"></script>
+
