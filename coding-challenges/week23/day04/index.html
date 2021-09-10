@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 97vh;
+            background-color: teal;
+        }
+
+        .main {
+            text-align: center;
+            background-color: #ff097c;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        input {
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .InputBox {
+            color: white;
+            margin: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        span {
+            color: rgb(251, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="resBox">
+            <div class="main">
+                <h1>Loan Calculator</h1>
+                <div class="InputBox">
+                    <label for="">Loan Amount: <span>₹:</span></label>
+                    <input type="number" id="LoanAmount" placeholder="00.00">
+                </div>
+                <div class="InputBox">
+                    <label for="">Interest Rate: <span>%</span></label>
+                    <input type="number" id="InterestRate" placeholder="00.00">
+                </div>
+                <div class="InputBox">
+                    <label for="">Months To Pay: <span>?</span></label>
+                    <input type="number" id="MonthsToPay" placeholder="00.00">
+                </div>
+                <div>
+                    <h2>Monthly Payment: <span id="MonthlyPayment">00.00</span> ₹</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./script.js"></script>
