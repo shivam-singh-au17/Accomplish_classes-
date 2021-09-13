@@ -1,0 +1,148 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0b0035;
+}
+.container form {
+  background-color: #8fe2e2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  padding-top: 160px;
+}
+.container form .inputBox {
+  margin-top: 20px;
+}
+.container form .inputBox span {
+  display: block;
+  padding-bottom: 5px;
+}
+.container form .inputBox input, .container form .inputBox select {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.container form .flexbox {
+  display: flex;
+  gap: 15px;
+}
+.container form .flexbox .inputBox {
+  flex: 1 1 150px;
+}
+.container form .submit-btn {
+  width: 100%;
+  background: linear-gradient(45deg, rgb(252, 0, 0), rgb(51, 255, 0));
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  border-radius: 5px;
+}
+.container form .submit-btn:hover {
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.container .card-container {
+  margin-bottom: -150px;
+  position: relative;
+  height: 250px;
+  width: 400px;
+}
+.container .card-container .front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(28, 1, 116), rgb(3, 105, 105), rgb(255, 0, 0));
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.4s ease-out;
+  transform: perspective(1000px) rotateY(0deg);
+}
+.container .card-container .front .image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .card-container .front .image img {
+  height: 50px;
+}
+.container .card-container .front .card-number-box {
+  padding: 20px 0;
+  font-size: 32px;
+  margin-top: 20px;
+  color: white;
+}
+.container .card-container .front .flexbox {
+  color: white;
+  display: flex;
+  margin-top: 15px;
+}
+.container .card-container .front .flexbox .box {
+  color: white;
+  font-size: 15px;
+}
+.container .card-container .front .flexbox .box:nth-child(1) {
+  margin-right: auto;
+}
+.container .card-container .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(28, 1, 116), rgb(3, 105, 105), rgb(255, 0, 0));
+  border-radius: 10px;
+  padding: 20px 0;
+  text-align: right;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(180deg);
+}
+.container .card-container .back .strip {
+  background-color: rgb(41, 41, 41);
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+}
+.container .card-container .back .box {
+  padding: 0 20px;
+}
+.container .card-container .back .box span {
+  font-size: 15px;
+  color: white;
+}
+.container .card-container .back .box .cvv-box {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.container .card-container .back .box img {
+  margin-top: 30px;
+  height: 30px;
+}/*# sourceMappingURL=card_entry.css.map */
