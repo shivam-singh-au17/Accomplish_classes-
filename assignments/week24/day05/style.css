@@ -1,0 +1,109 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+table {
+  padding: 10px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 690;
+  background-color: rgb(51, 255, 0);
+  border-radius: 20px;
+}
+
+table td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+button {
+  background-color: red;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 50px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+html {
+  background-color: rgb(255, 0, 85);
+}
+
+.button {
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px 15px 10px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#display1,
+#display2,
+#score,
+#fails {
+  padding: 10px 20px 10px 5px;
+  font-size: 20px;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#display1,
+#display2 {
+  width: 400px;
+}
+
+#hint {
+  position: relative;
+  top: 10px;
+  padding: 10px 20px 10px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 400px;
+  border: 5px dashed rgb(0, 247, 255);
+  margin-bottom: 20px;
+}
+
+#just {
+  position: relative;
+  top: 200px;
+  margin: 0;
+  width: 400px;
+}
+
+img {
+  display: block;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
